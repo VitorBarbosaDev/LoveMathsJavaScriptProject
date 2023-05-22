@@ -81,7 +81,7 @@ function calculateCorrectAnswer() {
 		return [operand1 + operand2, "addition"];
 	} else if (operator === "-") {
 		return [operand1 - operand2, "subtract"];
-	} else if (operator === "*") {
+	} else if (operator === "x") {
 		return [operand1 * operand2, "multiply"];
 	} else {
 		alert(`Unimplemented operator ${operator}`);
